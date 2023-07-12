@@ -1,0 +1,751 @@
+export const cellars = [
+  {
+    name: "Iceworn Cellar",
+    x: -106.23104728528988,
+    y: 113.17978459082077,
+  },
+  {
+    name: "Arid Tunnel",
+    x: -77.29503323861755,
+    y: 65.66805547335832,
+  },
+  {
+    name: "Cutpurse's Hoard",
+    x: -79.00065004044251,
+    y: 66.7660508756517,
+  },
+  {
+    name: "Briny Cavern",
+    x: -64.61286269319076,
+    y: 60.82374062294019,
+  },
+  {
+    name: "Fetid Pit",
+    x: -57.88964345924812,
+    y: 71.4477463296858,
+  },
+  {
+    name: "Grain Storage",
+    x: -68.13527254618423,
+    y: 76.5359749876181,
+  },
+  {
+    name: "Abahru Sinkhole",
+    x: -74.93001557485952,
+    y: 75.53272661089576,
+  },
+  {
+    name: "Rotting Pit",
+    x: -83.54416137455023,
+    y: 83.4869386853541,
+  },
+  {
+    name: "Steamy Chasm",
+    x: -87.88157363253192,
+    y: 94.52832595025684,
+  },
+  {
+    name: "Savina Hideout",
+    x: -95.04421727590753,
+    y: 127.12371373473233,
+  },
+  {
+    name: "Disturbed Grave",
+    x: -105.64936420797713,
+    y: 126.48235269773251,
+  },
+  {
+    name: "Flooded Mine",
+    x: -107.52501135539148,
+    y: 129.69046383458803,
+  },
+  {
+    name: "Hermit's Abode",
+    x: -108.37129108895476,
+    y: 119.88346968953289,
+  },
+  {
+    name: "Oleg's Hideout",
+    x: -102.42836607796971,
+    y: 108.88189866918955,
+  },
+  {
+    name: "Blacklung Mine",
+    x: -90.64199251633498,
+    y: 109.76180802797231,
+  },
+  {
+    name: "Frostbite Delve",
+    x: -96.455080416155,
+    y: 114.57089411730664,
+  },
+  {
+    name: "Lakeside Retreat",
+    x: -87.83779394420084,
+    y: 111.54108990512397,
+  },
+  {
+    name: "Secluded Cabin",
+    x: -86.92684639016792,
+    y: 107.71975657144621,
+  },
+  {
+    name: "Icy Grave",
+    x: -82.74754911730915,
+    y: 123.89954116784604,
+  },
+  {
+    name: "Frosty Mine",
+    x: -78.48140423748337,
+    y: 109.86819587817,
+  },
+  {
+    name: "Gambler's Hideout",
+    x: -75.17507099831509,
+    y: 125.79457631914617,
+  },
+  {
+    name: "Gruesome Storage",
+    x: -98.25207945204126,
+    y: 144.67810784587712,
+  },
+  {
+    name: "Geyser Sinkhole",
+    x: -83.32657925811465,
+    y: 130.3673222481873,
+  },
+  {
+    name: "Bloodstained Cellar",
+    x: -96.65809314368383,
+    y: 140.28967283505622,
+  },
+  {
+    name: "Velkhova Inn",
+    x: -84.46099963408274,
+    y: 138.54906067282414,
+  },
+  {
+    name: "Saint's Rest",
+    x: -89.66605638651653,
+    y: 149.97633596457692,
+  },
+  {
+    name: "Collapsed Cavern",
+    x: -90.014626511489,
+    y: 154.77528427504575,
+  },
+  {
+    name: "Saint's Hideout",
+    x: -85.42950379498572,
+    y: 148.1513916336356,
+  },
+  {
+    name: "Infested Mill",
+    x: -99.58060483918632,
+    y: 136.87045610931398,
+  },
+  {
+    name: "Howling Den",
+    x: -111.11408044164567,
+    y: 138.58576818416012,
+  },
+  {
+    name: "Tsepilova Larder",
+    x: -107.77354513138773,
+    y: 142.59311202975752,
+  },
+  {
+    name: "Moldy Cavern",
+    x: -56.46783532867208,
+    y: 98.95157506060846,
+  },
+  {
+    name: "Haunted Burrow",
+    x: -108.86424778622194,
+    y: 103.74916964715256,
+  },
+  {
+    name: "Infested Cottage",
+    x: -104.26280203642948,
+    y: 113.33689518526857,
+  },
+  {
+    name: "Frozen Tunnel",
+    x: -98.81537110199788,
+    y: 117.5566265490833,
+  },
+  {
+    name: "Forsaken Mine",
+    x: -106.91341641170807,
+    y: 117.55684438971488,
+  },
+  {
+    name: "Meat Locker",
+    x: -53.001852204886966,
+    y: 91.49249781674978,
+  },
+  {
+    name: "Smugglers' Underpass",
+    x: -62.863020421391425,
+    y: 91.63497323332817,
+  },
+  {
+    name: "Rotting Outhouse",
+    x: -28.87455107944952,
+    y: 89.83246048180722,
+  },
+  {
+    name: "Watery Sinkhole",
+    x: -25.50153076272924,
+    y: 103.5374468431431,
+  },
+  {
+    name: "Forgotten Shack",
+    x: -37.63575404654606,
+    y: 86.38322324236182,
+  },
+  {
+    name: "Lost Ritual Site",
+    x: -57.110202035955986,
+    y: 78.896378142559,
+  },
+  {
+    name: "Webbed Lode",
+    x: -54.302652321474525,
+    y: 75.33815507134867,
+  },
+  {
+    name: "Fisherman's Rest",
+    x: -45.30261303526888,
+    y: 92.57664532485977,
+  },
+  {
+    name: "Decrepit Cellar",
+    x: -58.86208294664827,
+    y: 113.88258487542103,
+  },
+  {
+    name: "Disturbed Arachnid Tunnels",
+    x: -66.1234056662931,
+    y: 113.93342855124983,
+  },
+  {
+    name: "Wretch's Stow",
+    x: -67.49737785046221,
+    y: 122.36831116595137,
+  },
+  {
+    name: "Remote Shelter",
+    x: -60.209766025125454,
+    y: 140.18427373018127,
+  },
+  {
+    name: "Nefarious Hollow",
+    x: -68.1129829180526,
+    y: 147.34611179999322,
+  },
+  {
+    name: "Hillside Storage",
+    x: -70.51159854097337,
+    y: 131.20687622049664,
+  },
+  {
+    name: "Infested Basement",
+    x: -45.47893837454753,
+    y: 107.59399100541883,
+  },
+  {
+    name: "Abandoned Cottage",
+    x: -39.04271625618556,
+    y: 120.39119013977908,
+  },
+  {
+    name: "Overgrown Outpost",
+    x: -55.762314629518016,
+    y: 146.93825530980243,
+  },
+  {
+    name: "Infested Pit",
+    x: -56.90149433191607,
+    y: 137.25098056131552,
+  },
+  {
+    name: "Flooded Burial Pit",
+    x: -123.88763049130131,
+    y: 149.08511882072952,
+  },
+  {
+    name: "Decaying Cavern",
+    x: -136.5281525286109,
+    y: 137.8069011176209,
+  },
+  {
+    name: "Shipwreck Shack",
+    x: -131.37734082327077,
+    y: 148.6773670196141,
+  },
+  {
+    name: "Swamp Hovel",
+    x: -138.49157252558703,
+    y: 148.458744564022,
+  },
+  {
+    name: "Swarmed Mineshaft",
+    x: -153.52390826223737,
+    y: 126.37622554653625,
+  },
+  {
+    name: "Slimy Cavern",
+    x: -131.81107189409212,
+    y: 129.72252189525116,
+  },
+  {
+    name: "Bleak Basement",
+    x: -145.86925053274854,
+    y: 131.64625886349268,
+  },
+  {
+    name: "Tidal Burrow",
+    x: -159.50890435940693,
+    y: 144.16662896227822,
+  },
+  {
+    name: "Fetid Hive",
+    x: -147.15863339798918,
+    y: 145.47576271144797,
+  },
+  {
+    name: "Waterlogged Grave",
+    x: -157.96329941798507,
+    y: 135.22355363631215,
+  },
+  {
+    name: "Isolated Shack",
+    description: "A remote, unassuming shack, perfect for discreet meetings.",
+    x: -149.23687233276462,
+    y: 136.20780019513674,
+  },
+  {
+    name: "Aya's Hideaway",
+    x: -145.5182814309963,
+    y: 137.0675358189399,
+  },
+  {
+    name: "Shoreside Shack",
+    x: -160.38588378899337,
+    y: 128.6196608395529,
+  },
+  {
+    name: "Toxic Mine",
+    x: -151.4440620021002,
+    y: 112.33210882092934,
+  },
+  {
+    name: "Rotting Cave",
+    x: -159.41140347883427,
+    y: 117.9735063640314,
+  },
+  {
+    name: "Swamped Hideout",
+    x: -140.6268038108598,
+    y: 118.90036310875017,
+  },
+  {
+    name: "Dark Catacomb",
+    x: -135.84861205460416,
+    y: 107.92943063618254,
+  },
+  {
+    name: "Cursed Cabin",
+    x: -156.24093291005494,
+    y: 102.71646774293227,
+  },
+  {
+    name: "Desecrated Cellar",
+    x: -149.38439357169133,
+    y: 100.50516312412262,
+  },
+  {
+    name: "Forlorn Cavern",
+    x: -130.48553089630127,
+    y: 63.84176683641428,
+  },
+  {
+    name: "Foul Den",
+    x: -118.6042897869917,
+    y: 68.29705994879178,
+  },
+  {
+    name: "Raider's Mine",
+    x: -133.4908607954219,
+    y: 70.4549407906081,
+  },
+  {
+    name: "Hakan's Hot Spring",
+    x: -149.4656170071771,
+    y: 42.25249810967847,
+  },
+  {
+    name: "Webbed Den",
+    x: -141.14061287946006,
+    y: 27.052924100095,
+  },
+  {
+    name: "Marauder's Hideaway",
+    x: -153.92386147793584,
+    y: 37.055530396837035,
+  },
+  {
+    name: "Wicked Sanctum",
+    x: -139.28425036058795,
+    y: 41.345643393476564,
+  },
+  {
+    name: "Festering Burrow",
+    x: -133.15004817188762,
+    y: 34.272418142679186,
+  },
+  {
+    name: "Forgotten Outpost",
+    x: -119.77753138358177,
+    y: 30.87291845094338,
+  },
+  {
+    name: "Ravan's Folly",
+    x: -128.1106201831592,
+    y: 28.591518831718915,
+  },
+  {
+    name: "Sodden Burrow",
+    x: -127.67656808403869,
+    y: 23.497633960896696,
+  },
+  {
+    name: "Ravaged Ruins",
+    x: -126.64973743526159,
+    y: 58.7745960379547,
+  },
+  {
+    name: "Festering Tunnels",
+    x: -111.27348218449043,
+    y: 33.29149843069287,
+  },
+  {
+    name: "Man-eaters' Lair",
+    x: -103.70573467750098,
+    y: 41.93387397398261,
+  },
+  {
+    name: "Foul Grotto",
+    x: -118.18369002932882,
+    y: 41.087487776952756,
+  },
+  {
+    name: "Bone Dust Hollow",
+    x: -120.03632714582116,
+    y: 53.43010401512502,
+  },
+  {
+    name: "Blighted Burrow",
+    x: -111.37828345605318,
+    y: 58.22443235711178,
+  },
+  {
+    name: "Derelict Tunnel",
+    x: -140.1323547141781,
+    y: 53.920364456855815,
+  },
+  {
+    name: "Commandeered Lodge",
+    x: -152.0266019738271,
+    y: 91.84081761608418,
+  },
+  {
+    name: "Rocky Burrow",
+    x: -145.35127137205816,
+    y: 82.21371315257137,
+  },
+  {
+    name: "Holy Refuge",
+    x: -136.1519215571274,
+    y: 98.00375211054234,
+  },
+  {
+    name: "Feeding Den",
+    x: -121.1828087406172,
+    y: 104.58828711924902,
+  },
+  {
+    name: "Mountain Storeroom",
+    x: -114.38856363338549,
+    y: 106.75139545376493,
+  },
+  {
+    name: "Bloodpox Infestation",
+    x: -127.92016195518669,
+    y: 112.13907363109963,
+  },
+  {
+    name: "Cinder Shack",
+    x: -119.75799451851879,
+    y: 121.22294388877198,
+  },
+  {
+    name: "Penitent Temple",
+    x: -126.55245364461659,
+    y: 41.392694786029935,
+  },
+  {
+    name: "Knight's Lodging",
+    x: -133.5218791993866,
+    y: 49.07880291547281,
+  },
+  {
+    name: "Deserted Textile Shop",
+    x: -133.23479036143476,
+    y: 57.08323517202244,
+  },
+  {
+    name: "City Armory",
+    x: -128.4347921573957,
+    y: 43.236747944302046,
+  },
+  {
+    name: "Garan Undercroft",
+    x: -48.354079833063494,
+    y: 125.32946691594819,
+  },
+  {
+    name: "Ancient Grave",
+    x: -53.92567010009366,
+    y: 117.77821524064366,
+  },
+  {
+    name: "Scorched Cellar",
+    x: -45.282506181184914,
+    y: 114.85277061312918,
+  },
+  {
+    name: "Drowned Burrow",
+    x: -43.48349853456291,
+    y: 130.82949735445703,
+  },
+  {
+    name: "Tormented Pit",
+    x: -122.83754692475769,
+    y: 130.31225524853514,
+  },
+  {
+    name: "Sunken Hut",
+    x: -118.86226878335432,
+    y: 137.16628805471944,
+  },
+  {
+    name: "Swamp Nest",
+    x: -126.43173171707157,
+    y: 138.65378905785977,
+  },
+  {
+    name: "Mire Hideout",
+    x: -119.9069145236061,
+    y: 146.42111680102298,
+  },
+  {
+    name: "Blood-soaked Spence",
+    x: -92.50956345436958,
+    y: 84.29861943018577,
+  },
+  {
+    name: "Decrepit Hive",
+    x: -69.26142453256627,
+    y: 87.59550253528923,
+  },
+  {
+    name: "Desolate Vault",
+    x: -96.76640197699477,
+    y: 94.65874315082301,
+  },
+  {
+    name: "Dusty Mineshaft",
+    x: -97.8810690121845,
+    y: 87.43341818607047,
+  },
+  {
+    name: "Dark Hollow",
+    x: -101.50809914884755,
+    y: 84.21886355263898,
+  },
+  {
+    name: "Abandoned Mineshaft",
+    x: -108.31495253333539,
+    y: 92.39782682958092,
+  },
+  {
+    name: "Monk's Retreat",
+    x: -78.73000789719102,
+    y: 61.357117130727204,
+  },
+  {
+    name: "Cannibals' Foothold",
+    x: -87.6239200322004,
+    y: 54.42182703913442,
+  },
+  {
+    name: "Abandoned Smuggler's Den",
+    description: "Once a den for bandits, it now houses a far worse threat. ",
+    x: -64.47442852060959,
+    y: 120.80592266850167,
+  },
+  {
+    name: "Eroded Cove",
+    x: -85.47909611560759,
+    y: 38.906989044649585,
+  },
+  {
+    name: "Seaside Cavern",
+    x: -78.95875147967052,
+    y: 44.71244078408496,
+  },
+  {
+    name: "Hinterlands Shelter",
+    x: -91.92398053838185,
+    y: 41.32349462470069,
+  },
+  {
+    name: "Sun-Bleached Excavation",
+    x: -102.84346222037807,
+    y: 74.14720013778944,
+  },
+  {
+    name: "Barren Cave",
+    x: -94.11181351159784,
+    y: 76.24357826340024,
+  },
+  {
+    name: "Marauder's Hideaway",
+    x: -109.09083780386126,
+    y: 68.39259425804883,
+  },
+  {
+    name: "Cannibals' Hold",
+    x: -97.1821685662592,
+    y: 67.50552536763173,
+  },
+  {
+    name: "Rancid Vermin Nest",
+    x: -115.83098118020429,
+    y: 81.50989054570888,
+  },
+  {
+    name: "Sandy Ruins",
+    x: -118.39900911464194,
+    y: 90.40798287318853,
+  },
+  {
+    name: "Hellish Pit",
+    x: -112.96773353353971,
+    y: 95.60865353553761,
+  },
+  {
+    name: "Groundskeeper's Shed",
+    x: -113.8620470581186,
+    y: 91.29476554067054,
+  },
+  {
+    name: "Commandeered House",
+    description: "A residence forcibly taken over by the Knights Penitent",
+    x: -145.20362674470354,
+    y: 28.32334554895856,
+  },
+  {
+    name: "Hideout Entrance",
+    description: "This entrance was obstructed by rubble. ",
+    x: -131.48682949017774,
+    y: 45.02959981869105,
+  },
+  {
+    name: "Osric's garrison",
+    description: "A home commandeered as a base by the Knights Penitent",
+    x: -129.72796948977776,
+    y: 50.642946149237986,
+  },
+  {
+    name: "Mysterious Gateway",
+    description: "A hellish portal of unknown contents. ",
+    x: -122.23876837393377,
+    y: 52.05741174703508,
+  },
+  {
+    name: "Embered Recess",
+    description: "An ash-covered cellar carrying the smell of burnt remains.",
+    x: -72.58728917713262,
+    y: 138.1794844869502,
+  },
+  {
+    name: "Seared Hollow",
+    description: "A torrid cavern etched with fire from the Days of Ash.",
+    x: -62.359323061756484,
+    y: 148.22114909026476,
+  },
+  {
+    name: "Lost Monument Crypt",
+    x: -90.14404568530199,
+    y: 36.98926425945282,
+  },
+  {
+    name: "Strange Refuge",
+    x: -134.73540820962145,
+    y: 125.50901454948131,
+  },
+  {
+    name: "Zolaya's Hideout",
+    x: -57.273142460639164,
+    y: 69.43795630634229,
+  },
+  {
+    name: "The Red Cellar",
+    x: -82.45318000382024,
+    y: 113.61240407385797,
+  },
+  {
+    name: "Sanctified Study",
+    x: -77.40209876972739,
+    y: 126.5238301818451,
+  },
+  {
+    name: "Frigid Cellar",
+    description: "Sister Octavia has invited you to witness a miracle.",
+    x: -94.5276909320608,
+    y: 124.93337641320302,
+  },
+  {
+    name: "Triune Hideout",
+    description: "Under the Iron Wolves' noses, Triune plot and connive.",
+    x: -129.82529347720597,
+    y: 35.88629728625447,
+  },
+  {
+    name: "Abandoned Shack",
+    description: "The cellar of an old homestead, abandoned to the elements.",
+    x: -109.39280996145457,
+    y: 102.51955373413766,
+  },
+  {
+    name: "Eldritch Conclave",
+    description: "A hidden meeting place for the witches of Hawezar.",
+    x: -117.59173923312473,
+    y: 142.419254459037,
+  },
+  {
+    name: "Bitter Cave",
+    description: "A cavern cold enough to freeze your breath on your face. ",
+    x: -89.45513792764608,
+    y: 112.98096420351668,
+  },
+  {
+    name: "Family Cellar",
+    description: "A cellar owned by a local family, long since abandoned.",
+    x: -78.43574942722464,
+    y: 52.77724929146898,
+  },
+];
